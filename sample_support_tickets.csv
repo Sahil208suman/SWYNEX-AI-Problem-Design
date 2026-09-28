@@ -1,0 +1,21 @@
+ticket_text,category
+"I was charged twice for my order",Payment Issue
+"My payment was declined",Payment Issue
+"I was charged but my order was not placed",Payment Issue
+"My card payment is not working",Payment Issue
+"I cannot log into my account",Account Issue
+"I forgot my account password",Account Issue
+"I cannot access my profile",Account Issue
+"My account is locked",Account Issue
+"The application keeps crashing",Technical Issue
+"The website is not loading",Technical Issue
+"The app shows an error",Technical Issue
+"The website is very slow",Technical Issue
+"I want to get a refund",Refund Request
+"I want my money back",Refund Request
+"Please cancel my order and refund me",Refund Request
+"How can I request a refund?",Refund Request
+"My package has not arrived",Delivery Issue
+"My order is delayed",Delivery Issue
+"Where is my delivery?",Delivery Issue
+"My package was not delivered",Delivery Issue
