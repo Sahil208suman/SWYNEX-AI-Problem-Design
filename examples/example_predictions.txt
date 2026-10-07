@@ -1,0 +1,20 @@
+SWYNEX - Customer Support Ticket Classifier
+Task 2: Model / API Integration
+
+Example Predictions
+===================
+
+Input: I was charged twice for my order
+Predicted Category: Payment Issue
+
+Input: I cannot log into my account
+Predicted Category: Account Issue
+
+Input: The application keeps crashing
+Predicted Category: Technical Issue
+
+Input: I want to get my money back
+Predicted Category: Refund Request
+
+Input: My package has not arrived
+Predicted Category: Delivery Issue
