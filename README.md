@@ -151,3 +151,46 @@ classification.
 
 It clearly defines the target users, data requirements, AI approach,
 constraints, evaluation metrics, and success criteria.
+
+
+## Task 2: Model / API Integration
+
+### Prototype
+
+The AI problem defined in Task 1 was implemented as a working
+machine-learning prototype.
+
+### Technologies Used
+
+- Python
+- Pandas
+- Scikit-learn
+- TF-IDF Vectorization
+- Logistic Regression
+
+### Architecture
+
+Customer Support Message
+↓
+TF-IDF Vectorization
+↓
+Logistic Regression
+↓
+Predicted Support Category
+
+### Example Results
+
+| Input | Predicted Category |
+|---|---|
+| I was charged twice for my order | Payment Issue |
+| I cannot log into my account | Account Issue |
+| The application keeps crashing | Technical Issue |
+| I want to get my money back | Refund Request |
+| My package has not arrived | Delivery Issue |
+
+### How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
