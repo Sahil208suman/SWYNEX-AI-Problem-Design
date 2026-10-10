@@ -194,3 +194,100 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+# SWYNEX – AI Problem Design
+
+## Customer Support Ticket Classifier
+
+### Project Overview
+
+SWYNEX is a machine learning prototype that classifies customer support messages into categories such as Account Issue, Payment Issue, Technical Issue, Refund Request, and Delivery Issue.
+
+The system also includes confidence-based prediction handling and human review for uncertain or unfamiliar messages.
+
+### Features
+
+* Customer support ticket classification
+* Text preprocessing using TF-IDF
+* Logistic Regression classification model
+* Prediction confidence display
+* Unknown or low-confidence message handling
+* Human support review recommendations
+* Model evaluation and sample predictions
+
+### Technology Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* TF-IDF Vectorization
+* Logistic Regression
+
+### Project Structure
+
+```text
+SWYNEX-AI-Problem-Design/
+├── Data/
+│   └── sample_support_tickets.csv
+├── examples/
+│   └── example_predictions.txt
+├── app.py
+├── evaluation.py
+├── requirements.txt
+└── README.md
+```
+
+### Installation
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run the Classifier
+
+```bash
+python app.py
+```
+
+### Run Model Evaluation
+
+```bash
+python evaluation.py
+```
+
+### Example Input
+
+`I was charged twice for my order`
+
+Expected category: `Payment Issue`
+
+### Human Review
+
+Messages that are unfamiliar or have insufficient prediction confidence are routed for human review. The confidence threshold should be validated using suitable evaluation data before deployment.
+
+### Limitations
+
+* Performance depends on the size and quality of the training dataset.
+* Predictions may be unreliable for unfamiliar messages.
+* The model is a prototype and should not replace human support decisions.
+
+### Task 3: Intelligent Feature
+
+This project demonstrates a basic intelligent classification feature with error handling, evaluation examples, and human review recommendations.
+
+### Future Improvements
+
+* Expand the labeled training dataset.
+* Improve model evaluation with a larger test set.
+* Build a Streamlit web interface.
+* Add feedback collection to improve future predictions.
+
+### Author
+
+Sahil Suman
+
+### License
+
+This project is for educational and prototype purposes.
+
